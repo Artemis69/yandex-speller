@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "jsx": "preserve"
+  },
+  "include": ["src"]
+}
