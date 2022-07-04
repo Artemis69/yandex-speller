@@ -78,11 +78,11 @@ const makeRequest = (url: string, options: Options) => {
 };
 
 const defaultOptions = (options?: Partial<Options>) => {
-  if (!options) options = {};
+  options ||= {};
 
-  if (!options.format) options.format = "plain";
-  if (!options.lang) options.lang = "ru,en,uk";
-  if (!options.options) options.options = 0;
+  options.format ||= "plain";
+  options.lang ||= "ru,en,uk";
+  options.options ||= 0;
 
   return options as Omit<Options, "text">;
 };
